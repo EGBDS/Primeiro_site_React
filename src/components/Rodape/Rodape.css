@@ -1,0 +1,109 @@
+#contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(3, 3, 66);
+    color: white;
+    min-height: 300px;
+}
+
+#contato > h3 {
+    padding: 30px;
+}
+
+#contatos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+#contact{
+    margin: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+#contact > h3 {
+    margin: 10px 0;
+}
+
+#contact > ul > li > img {
+    margin: 0;
+    height: 15px;
+}
+
+#contact > ul > li {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#contact > ul > li > p {
+    margin: 0 0 0 10px;
+}
+
+#contact > ul {
+    list-style: none;
+}
+
+#socias {
+    margin: 20px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+#socias > ul > li {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#socias> ul > li > img {
+    margin: 0;
+    height: 15px;
+}
+
+#socias > h3 {
+    margin: 10px 0;
+}
+
+#socias > ul {
+    list-style: none;
+}
+
+#socias > ul > li > p {
+    margin: 0 0 0 10px;
+}
+
+#rodape {
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(24, 20, 20);
+    color: white;
+}
+
+@media (max-width: 390px) {
+    #contatos {
+        margin: 0px;
+        flex-direction: column;
+    }
+
+    #contact{
+        margin: 0;
+    }
+
+    #socias {
+        margin: 0 0 0 2px;
+    }
+}
